@@ -286,7 +286,6 @@ int main() {
     printf( "hostname: %s\n", hostname );
     printf( "motherboard model: %s\n", motherboard_name );
     printf( "cpu model: %s\n", cpu_name );
-    printf( "traffic data: in: %.*f Kb/s out: %.*f Kb/s\n", 2, net_traffic_total_in / 1024.0f, 2, net_traffic_total_out / 1024.0f );
     printf( "traffic data: in: %.*f Kb/s out: %.*f Kb/s\n", 2, B_TO_KB( net_traffic_total_in ), 2, B_TO_KB( net_traffic_total_out ) );
     printf( "memory: %.*fG/%.*fG\n", 1, B_TO_GB( memory_free ), 1, B_TO_GB( memory_avaible ) );
     printf( "release: %s\n", release_name );
